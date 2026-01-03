@@ -113,3 +113,29 @@ footer a {
 footer a:hover {
   text-decoration: underline;   /* onderstreping bij hover */
 }
+
+/* Container zodat de knop netjes op de juiste plek staat */
+.download-container {
+  display: flex;
+  justify-content: center;  /* centreert de knop horizontaal */
+  margin-top: 30px;        /* ruimte vanaf bovenkant / hero */
+}
+
+/* Stijl voor de knop */
+.download-btn {
+  background-color: #5E7F4F;  /* groene kleur site */
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  font-weight: bold;
+}
+
+/* Hover effect */
+.download-btn:hover {
+  background-color: #4B6B3D; /* donkerder groen bij hover */
+  transform: scale(1.05);    /* iets groter bij hover */
+}
